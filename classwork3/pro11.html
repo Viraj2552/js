@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let n = parseInt(prompt("Enter Number:"))
+        flag = 0 
+
+        for(let i = 2; i<=n; i++){
+            if(n % 2 == 0){
+                flag ++
+            }
+        }
+        if(flag == 0){
+            console.log("Number is Prime");
+        }
+        else{
+            console.log("Number is not Prime");
+        }
+    </script>
+</body>
+</html>
