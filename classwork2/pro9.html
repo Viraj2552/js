@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let a = parseInt(prompt("Enter number 1:"))
+        let b = parseInt(prompt("Enter number 2:"))
+        let c = parseInt(prompt("Enter number 3:"))
+        let d = parseInt(prompt("Enter number 4:"))
+
+        let temp = 0
+        
+        if(a>b){
+            if(a>c){
+                if(a>d){
+                    temp = a
+                }
+                else{
+                    temp = d
+                }
+            }
+            else{
+                temp = c
+            }
+        }
+        else{
+            temp = b
+        }
+
+        console.log(temp);
+    </script>
+</body>
+</html>

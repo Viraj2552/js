@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        let physics = parseInt(prompt("Enter physics marks:"))
+        let chemistry = parseInt(prompt("Enter chemistry marks:"))
+        let biology = parseInt(prompt("Enter biology marks:"))
+        let mathematics = parseInt(prompt("Enter mathematics marks:"))
+        let computer = parseInt(prompt("Enter computer marks:"))
+
+        let total = physics + chemistry + biology + mathematics + computer 
+        let per = total/5
+
+
+        if(per >= 90){
+            console.log("Grade A");
+        }
+        else if(per >= 80){
+            console.log("Grade B");
+        }
+        else if(per >= 70){
+            console.log("Grade C");
+        }
+        else if(per >= 60){
+            console.log("Grade D");
+        }
+        else if(per >= 50){
+            console.log("Grade E");
+        }
+        else if(per >= 40){
+            console.log("Grade F");
+        }
+        else{
+            console.log("You are Fail");
+        }
+    </script>
+</body>
+</html>
