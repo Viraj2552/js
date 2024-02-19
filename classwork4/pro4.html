@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let a = parseInt(prompt("Enter Numbe:"))
+        let b = parseInt(prompt("Enter Numbe:"))
+        let c = parseInt(prompt("Enter Numbe:"))
+        let d = parseInt(prompt("Enter Numbe:"))
+
+        function max(a,b,c,d){
+            if (a > b) {
+            if (a > c && a > d) {
+                console.log(a);
+            } else {
+                if (c > d) {
+                    console.log(c);
+                } else {
+                    console.log(d);
+                }
+            }
+        } else {
+            if (b > c && b > d) {
+                console.log(b);
+            } else {
+                if (c > d) {
+                    console.log(c);
+                } else {
+                    console.log(d);
+                }
+            }
+        }
+        }
+        max(a,b,c,d)
+    </script>
+</body>
+</html>
